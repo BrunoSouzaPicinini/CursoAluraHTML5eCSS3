@@ -16,6 +16,11 @@ main h1 {
     margin: 0px;
 }
 
+main div {
+    width: 720px;
+    margin: 0 auto
+}
+
 h2 {
     font-size: 40px;
 }
@@ -34,11 +39,6 @@ blockquote {
     box-sizing: border-box;
 }
 
-aside {
-    background-color: #3C1D3D;
-    color: #F2FFFC;
-}
-
 body footer {
     background-color: #000;
     color: #F2FFFC;
@@ -49,9 +49,19 @@ main footer {
     color: inherit;
 }
 
+aside {
+    background-color: #3C1D3D;
+    color: #F2FFFC;
+    text-align: center;
+}
+
 nav a {
     text-decoration: none;
     color: #F2FFFC;
+}
+
+nav ul {
+    list-style-type: none;
 }
 
 main a {
