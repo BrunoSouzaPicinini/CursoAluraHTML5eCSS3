@@ -12,7 +12,7 @@ h2 {
     font-size: 30px;
 }
 
-main h1 {
+.titulo-principal {
     font-size: 60px;
     text-align: center;
     color: #FAFFFC;
@@ -22,7 +22,7 @@ main h1 {
     border-bottom: 10px solid #000;
 }
 
-main div {
+.conteudo {
     width: 720px;
     margin: 0 auto;
     padding-top: 30px;
@@ -36,7 +36,7 @@ p {
     margin-bottom: 20px;
 }
 
-blockquote {
+.citacoes {
     background-color: #D9E5E3;
     padding: 20px;
     margin: 20px 40px 20px 40px;
@@ -55,9 +55,10 @@ main footer {
     color: inherit;
 }
 
-aside {
+.navegacao-site {
     background-color: #3C1D3D;
     color: #F2FFFC;
+    padding: 20px;
     text-align: center;
 }
 
@@ -84,7 +85,7 @@ aside a {
     font-family: "Open Sans Condensed", sans-serif;
 }
 
-aside li {
+.icones-sociais li {
     display: inline-block;
 }
 
@@ -94,4 +95,28 @@ strong {
 
 em {
     font-style: italic;
+}
+
+#rodape-pagina {
+    background-color: #000;
+    color: #F2FFFC;
+    padding: 20px;
+}
+
+article {
+    padding-bottom:  30px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.leia-mais {
+    font-size: 150%;
+    width: auto;
+    padding: 8px;
+    margin: 16px;
+    display: block;
+    background-color: #E6E7E8;
+    text-align: center;
+    border-radius: 15px;
 }
