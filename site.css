@@ -75,6 +75,8 @@ main footer {
     text-align: center;
     float: right;
     clear: right;
+    border-bottom: 10px black solid;
+    box-sizing: border-box;
 }
 
 .imagem-eu {
@@ -83,6 +85,8 @@ main footer {
 
 .imagem-eu, .navegacao-site {
     width: 15%;
+    border-left: 10px black solid;
+    box-sizing: border-box;
 }
 
 main {
