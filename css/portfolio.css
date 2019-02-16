@@ -1,0 +1,39 @@
+.trabalhos {
+    width: 800px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+.trabalhos li {
+    border: 8px #000 solid;
+    box-sizing: border-box;
+    margin: 8px;
+    padding: 8px;
+}
+
+figure {
+    text-align: center;
+}
+
+figcaption {
+    width: 320px;
+    text-align: left;
+}
+
+
+#bwm {
+    float: left;
+}
+
+#uol {
+    float: left;
+    clear: right;
+}
+
+#ibm {
+    float: left;
+}
+
+#g1 {
+    float: left;
+    clear: right;
+}
