@@ -147,3 +147,8 @@ article {
     text-align: center;
     border-radius: 15px;
 }
+
+.autor {
+    font-style: italic;
+    float: right;
+}
