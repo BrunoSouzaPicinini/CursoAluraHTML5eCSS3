@@ -89,6 +89,28 @@
     text-align: center;
 }
 
+.banner-twitter {
+    width: 16em;
+    line-height: 1;
+    padding: 1rem 0;
+    box-sizing: border-box;
+
+    text-align: center;
+    text-decoration: none;
+    background-color: #3C1D3D;
+    color: white;
+    border: .25em solid black;
+
+    font-size: 1.2rem;
+    font-family: "Open Sans Condensed", sans-serif;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform-origin: 0 0;
+    transform: translate(7em, -2.4749em) rotate(45deg);
+}
+
 .inicio-post {
     background-color: #FFFFFF;
     color: #000000;
@@ -140,6 +162,8 @@
 .saudacao em {
     color: #851944;
     font-size: 4em;
+    transform:  rotate(-5deg) skew(-10deg);
+    display: inline-block;
 }
 
 .botao-index {
